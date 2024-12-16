@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulasi Mesin Turing - Bilangan Prima</title>
+  <link rel="stylesheet" href="style.css"> <!-- Menghubungkan ke file CSS -->
+</head>
+<body>
+  <div class="container">
+    <h1>Simulasi Mesin Turing - Bilangan Prima</h1>
+    <p>Masukkan angka untuk dicek apakah bilangan prima atau bukan:</p>
+    <div class="input-container">
+      <input type="number" id="inputNumber" placeholder="Masukkan angka" min="1">
+    </div>
+
+    <div class="tape" id="tape"></div>
+    <div class="state" id="state">State: -</div>
+    <div class="controls">
+      <button onclick="startSimulation()">Mulai Simulasi</button>
+      <button onclick="resetSimulation()">Reset</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Menghubungkan ke file JavaScript -->
+</body>
+</html>
